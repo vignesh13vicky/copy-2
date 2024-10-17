@@ -1,0 +1,49 @@
+.container-fluid1{
+    color: #a394c5;
+    background: #040D1A;
+    font-size:xx-large ;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    height: 70px;
+    margin-left:0px;
+       
+     box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.2); 
+}
+.port{
+    justify-content: space-evenly;
+    padding-left:100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:xx-large ;
+}
+@media screen and (max-width:600px) {
+    .port{
+        text-align: center;
+        padding: 10px;
+
+    }
+}
+.navbar {
+    width: 320px; 
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1.5px solid rgba(255, 255, 255, .1);
+    border-top: 1.5px solid rgba(255, 255, 255, .1);
+    border-left: 1.5px solid rgba(255, 255, 255, .1);
+    border-right: 1.5px solid rgba(255, 255, 255, .1);
+    border-radius: 30px;
+    align-items:center;
+    justify-content: space-evenly;
+   text-align: center;
+    /*  float: center;
+    overflow:visible;*/
+    margin: center;
+}    
+@media screen and (max-width:600px) {
+    .navbar {
+        
+        align-items: center;
+
+    }
+}
